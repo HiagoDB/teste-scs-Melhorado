@@ -1,0 +1,54 @@
+.head{
+  width: 100%;
+  height: 800px;
+  background-color: #EBEFF2;
+  background-image: url(../../assets/carroHome.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: #FFFFFF;
+}
+.navigation{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navigation a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.navigation a:hover{
+  color: #9999;
+}
+
+.list{
+  display: flex;
+  gap: 9.5em;
+  list-style: none;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.listProfile{
+  display: flex;
+  list-style: none;
+  font-weight: 500;
+  font-size: 1.2rem;
+  gap: 3em;
+  align-items: center;
+  padding-right: 4em;
+}
+.logo {
+  margin-top: 2em;
+  margin-left: 2.3em;
+  height: 65px;
+  width: 65px;
+}
+.logo:hover{
+  transform: scale(1.1);
+}
+
+
+
+
+
+
